@@ -632,7 +632,7 @@ void my__exit() {
 }
 void support() {
 	LPCWSTR url = L"https://github.com/Mis-Mar";
-	// 使用默认浏览器打开网址
+	 //使用默认浏览器打开网址
 	ShellExecute(0, L"open", url, 0, 0, SW_SHOW);
 }
 
